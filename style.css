@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato-Black', sans-serif;
+}
+/* Navbar */
+body{
+    background-color: #87af894a;
+}
+.logo{
+    display: flex;
+    font-size: 25px;
+}
+.logo1{
+    color: chocolate;
+}
+.logo2{
+    padding-left: 4px;
+    color: #4d8080;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 49px;
+    align-items: center;
+    background-color: #F4F1EA;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+nav li{
+    list-style: none;
+    height: 47px;
+    width: auto;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #382110;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+nav li:hover{
+    border: 1px solid #382110;
+}
+/* head */
+.head1{
+    color: #808a77;
+    display: flex;
+    height: 200px;
+    width: 1535px;
+    margin-right: 3px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #e7efdf;
+}
+
+/* books section */
+.books{
+    height:auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+.row-1, .row-2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.book{
+    /* border: 2px solid black; */
+    display: inline-flex;
+    width: 404px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.book h2{
+    padding-left: 5px;
+    font-size: 18px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F1EA;
+}
+.details p{
+    padding-left: 9px;
+    padding-top: 5px;
+}
+.details h4{
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    color: grey;
+    font-size: 14px;
+}
+.details button{
+    width: 174px;
+    height: 33px;
+    border: none;
+}
+#wish, #wish a{
+    background-color: #d4cdbb;
+    color: black;
+    font-weight: 500;
+}
+#amazon, #amazon a{
+    background-color: #F8C15D;
+    color: black;
+    font-weight: 500;
+}
+.details button a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.details button:hover{
+    border: 2px solid white;
+}
+.rating{
+    font-size: 12px;
+}
+.book div{
+    justify-content: space-around;
+    align-items: center;
+}
+.book img{
+    height: 300px;
+}
+.book:hover{
+    margin-top: 4px;
+    margin-left: 4px;
+    box-shadow: 9px 9px 5px 5px #ccc;
+}
